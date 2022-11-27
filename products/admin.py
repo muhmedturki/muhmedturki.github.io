@@ -8,6 +8,6 @@ class ProductAdmin(admin.ModelAdmin):
 
 # Register your models here.
 admin.site.register(Product,ProductAdmin)
-admin.site.site_header='Noble'
-admin.site.site_title ='Noble'
+admin.site.site_header='Globle City'
+admin.site.site_title ='Globle City'
 

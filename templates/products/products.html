@@ -2,10 +2,11 @@
 
 {% block content %}
 {% for x in item %}
-<h1>{{x.title}} </h1>
-<h1>{{x.date}} </h1>
-<h1>{{x.content}} </h1>
-
-<img src="{{x.image.url}}" alt="">
+<p>{{x.title}} </p>
+<p>{{x.date}} </p>
+<p>{{x.content}} </p>
+<img src="{{x.image.url}}" width="300", height="400">
+<br>
+<hr>
 {% endfor%}
 {% endblock content %}
